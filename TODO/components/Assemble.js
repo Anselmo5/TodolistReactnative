@@ -13,11 +13,11 @@ const Assemble =() =>{
 
 const styles = StyleSheet.create({
     logo:{
-        bottom:300,
+        bottom:270,
         display:'flex',
         justifyContent:'center',
         alignItems:'center',
-        marginLeft:70,
+        marginLeft:95,
     },
     inp:{
         display:'flex',
@@ -25,14 +25,17 @@ const styles = StyleSheet.create({
         alignItems:'center',
         flexDirection:'row',
         backgroundColor:'#2F2B2B',
-        bottom:250,
-        width:260,
-        padding:10,
+        bottom:240,
+        width:280,
+        padding:16,
     
     },
     btn:{
         width:57,
         height:58,
+        borderRadius:6,
+        bottom:300,
+        marginLeft:300,
         backgroundColor:'#3abea6',
         display:'flex',
         justifyContent:'center',
